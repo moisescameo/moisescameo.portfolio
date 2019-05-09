@@ -1,0 +1,65 @@
+      .moisescameoh1 {
+        grid-area: 2/1/3/9;
+        position: fixed;
+        float: right;
+        padding-left: 20%;
+        padding-top: 35.8%;
+        font-family: 'Expletus Sans', cursive;
+        font-size: 5rem;
+        font-weight: 600;
+        line-height: 4rem;
+        color: #fff;
+        z-index: 20;
+    }
+
+
+    .moisescameoh2 {
+        grid-area: 2/1/3/9;
+        position: fixed;
+        float: right;
+        padding-left: 83.5%;
+        padding-top: 40.5%;
+        font-family: 'Expletus Sans', cursive;
+        font-size: 2.5rem;
+        font-weight: 400;
+        color: #fff;
+        z-index: 20;
+    }
+    
+    .mail {
+        grid-area: 1/2/2/6;
+        position: static;
+        float: right;
+        /* padding-top: 10%;
+        padding-right: 5%; */
+        font-family: 'Ubuntu', sans-serif;;
+        font-size: 1.1rem;
+        font-weight: 400;
+        color: #fff; 
+        z-index: 30;
+    }
+
+    .contactsocial{
+        grid-area: 1/2/3/6;
+        display: flex;
+        flex-direction: row;
+        z-index: 22;
+        align-items: baseline;
+        position: relative;
+    }
+
+    .contactsocial img{
+       width: 129.63px;
+       height: 133.83px;
+    }
+    .copyright{
+        color: #fff;
+        position: absolute;
+        font-family: 'Expletus Sans', cursive;
+        font-size: 0.8rem;
+        font-weight: 400;
+        padding-left: 10px;
+        z-index: 100;
+        bottom: 10px;
+    }
+    
