@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://moisescameo.com/</loc>
+  <lastmod>2019-05-16T00:34:34+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://moisescameo.com/index.html</loc>
+  <lastmod>2019-05-16T00:34:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://moisescameo.com/about.html</loc>
+  <lastmod>2019-05-16T05:45:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://moisescameo.com/contact.html</loc>
+  <lastmod>2019-05-15T22:31:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://moisescameo.com/portfolio/design.html</loc>
+  <lastmod>2019-05-16T06:00:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://moisescameo.com/portfolio/illustration.html</loc>
+  <lastmod>2019-05-16T06:00:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://moisescameo.com/portfolio/photography.html</loc>
+  <lastmod>2019-05-16T06:00:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://moisescameo.com/portfolio/video.html</loc>
+  <lastmod>2019-05-16T06:00:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>

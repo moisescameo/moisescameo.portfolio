@@ -1,3 +1,5 @@
+@media (min-width: 768px )and (max-width: 2600px) {
+
 
     /* .moisescameoh1 {
         display: flex;
@@ -25,7 +27,7 @@
         color: #fff;
         z-index: 20;
     } */
-
+    
     .moisescameoh1 {
         grid-area: 2/1/3/9;
         position: fixed;
@@ -177,3 +179,110 @@
         padding-left: 10px;
         z-index: 100;
     }
+}
+    @media all and (max-width: 450px) {
+
+        
+        .moisescameoh1 {
+            grid-area: 2/1/3/9;
+            position: relative;
+            float: right;
+            padding-right: 11%;
+            padding-top: 4%;
+            font-family: 'Expletus Sans', cursive;
+            font-size: 3rem;
+            font-weight: 600;
+            line-height: 2.5rem;
+            color: #fff;
+            z-index: 20;
+            text-align: right;
+        }
+    
+    
+        .moisescameoh2 {
+            grid-area: 2/1/3/9;
+            position: relative;
+            float: right;
+            padding-left: 40%;
+            padding-right: 10%;
+            padding-top: 32%;
+            font-family: 'Expletus Sans', cursive;
+            font-size: 1rem;
+            font-weight: 400;
+            color: #fff;
+            z-index: 20;
+            text-align: right;
+        }
+        
+    
+        .images{
+            /* grid-area: 1/2/9/9;
+            margin-top: 40px; */
+        }
+    
+        .spider{
+            display: none;
+        }
+    
+        .cherry{
+            display: none;
+        }
+    
+        .arigato{
+            display: none;
+        }
+    
+        .midnight{
+           display: none;
+        }
+    
+        .pizza{
+            width: 88vw;
+            z-index: 13;
+            position: absolute;
+            top: 59%; 
+            left: 6.2%
+        }
+    
+        .kikis{
+            display: none;
+        }
+    
+        .tokyo{
+            display: none;
+        }
+    
+        .tigre{
+            height: 400px;
+            z-index: 14;
+            position: absolute;
+            top: 110%;
+            left: 18%;
+        }
+    
+        .limon{
+            display: none;
+        }
+    
+        .calavera{
+            width: 85vw;
+            z-index: 12;
+            position: absolute;
+            top: 10%;
+            left: 7.4%;
+        }
+    
+        .cerberus{
+            display: none;
+        }
+    
+        .turn{
+            width: 96vw;
+            z-index: 15;
+            position: absolute;
+            top: 167%;
+            left: 2.2%;
+        }
+        
+    }
+    

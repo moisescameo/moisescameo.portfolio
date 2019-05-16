@@ -1,6 +1,8 @@
-      .moisescameoh1 {
+@media (min-width: 768px )and (max-width: 2600px) {
+    
+    .moisescameoh1 {
         grid-area: 2/1/3/9;
-        position: fixed;
+        position: absolute;
         float: right;
         padding-left: 20%;
         padding-top: 35.8%;
@@ -15,9 +17,9 @@
 
     .moisescameoh2 {
         grid-area: 2/1/3/9;
-        position: fixed;
+        position: relative;
         float: right;
-        padding-left: 83.5%;
+        padding-left: 81%;
         padding-top: 40.5%;
         font-family: 'Expletus Sans', cursive;
         font-size: 2.5rem;
@@ -26,12 +28,12 @@
         z-index: 20;
     }
     
-    .mail {
+    .content {
         grid-area: 1/2/2/6;
         position: static;
         float: right;
-        /* padding-top: 10%;
-        padding-right: 5%; */
+        padding-top: 10%;
+        padding-right: 5%;
         font-family: 'Ubuntu', sans-serif;;
         font-size: 1.1rem;
         font-weight: 400;
@@ -43,8 +45,11 @@
         grid-area: 1/2/3/6;
         display: flex;
         flex-direction: row;
-        z-index: 22;
-        align-items: baseline;
+        justify-content: space-around;
+        padding-right: 6.5%;
+        padding-top: 4%;
+        z-index: 32;
+        align-self: center;
         position: relative;
     }
 
@@ -52,14 +57,66 @@
        width: 129.63px;
        height: 133.83px;
     }
-    .copyright{
-        color: #fff;
-        position: absolute;
-        font-family: 'Expletus Sans', cursive;
-        font-size: 0.8rem;
-        font-weight: 400;
-        padding-left: 10px;
-        z-index: 100;
-        bottom: 10px;
-    }
+}
+
+    @media all and (max-width: 450px) {
+
+        
+        .moisescameoh1 {
+            grid-area: 2/1/3/9;
+            position: fixed;
+            float: right;
+            padding-right: 16%;
+            padding-top: 41.5%;
+            font-family: 'Expletus Sans', cursive;
+            font-size: 3rem;
+            font-weight: 600;
+            line-height: 2.5rem;
+            color: #fff;
+            z-index: 20;
+            text-align: right;
+        }
+        .moisescameoh2 {
+            grid-area: 2/1/3/9;
+            position: fixed;
+            float: right;
+            padding-left: 75.5%;
+            padding-right: 10%;
+            padding-top: 69.3%;
+            font-family: 'Expletus Sans', cursive;
+            font-size: 1rem;
+            font-weight: 400;
+            color: #fff;
+            z-index: 20;
+            text-align: right;
+        }
+        .content {
+            position: relative;
+            float: left;
+            padding-top: 18%;
+            left: 5%;
+            font-family: 'Ubuntu', sans-serif;;
+            font-size: 1.1rem;
+            font-weight: 400;
+            color: #fff; 
+            z-index: 30;
+        }
     
+        .contactsocial{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding-top: 40%;
+            left: 16%;
+            z-index: 32;
+            align-self: center;
+            position: relative;
+            width: 70vw;
+        }
+    
+        .contactsocial img{
+           width: 103.704px;
+           height: 107.064px;
+        }
+    }
